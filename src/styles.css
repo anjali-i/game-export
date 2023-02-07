@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+table {
+  margin: 5px auto;
+}
+.vert {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.hori {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.grid {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.container {
+  background-color: wheat;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.headerwon {
+  background-color: rgb(61, 238, 238);
+}
+.descriptionwon {
+  background-color: rgba(64, 224, 208, 0.315);
+}
+
+.headerlost {
+  background-color: lightcoral;
+}
+.descriptionlost {
+  background-color: crimson;
+}
+.headertie {
+  background-color: rgb(180, 174, 102);
+}
+.descriptiontie {
+  background-color: rgb(214, 202, 31);
+}
+.greeting {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.example-enter {
+  height: 0px;
+  transform: scale(0.1);
+}
+
+.example-enter.example-enter-active {
+  transform: scale(1);
+  height: 100px;
+  transition: height 0.3s ease;
+}
+
+.example-leave {
+  transform: scale(1);
+}
+
+.example-leave.example-leave-active {
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+}
+.text {
+  font-family: "Concert One";
+  color: brown;
+}
